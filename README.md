@@ -1,12 +1,58 @@
-# React + Vite
+# Todo List React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto de lista de tareas (Todo List) desarrollado con React y Vite.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Agregar, editar, completar y eliminar tareas
+- Confirmación visual con SweetAlert2 para acciones importantes
+- Guardado automático de tareas en localStorage
+- Filtrado de tareas completadas/no completadas
+- Interfaz moderna y responsiva
 
-## Expanding the ESLint configuration
+## Instalación
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu_usuario/tu_repositorio.git
+   ```
+2. Entra en la carpeta del proyecto:
+   ```bash
+   cd todolist
+   ```
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+
+## Uso
+
+Inicia el servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+Abre tu navegador en [http://localhost:5173](http://localhost:5173)
+
+## Estructura principal
+
+- `src/components/` — Componentes React (Formulario, ListarTareas, Tareas, Header)
+- `src/helpers/` — Funciones auxiliares para localStorage
+- `src/App.jsx` — Componente principal
+
+## Tecnologías
+
+- React 19
+- Vite
+- SweetAlert2
+- FontAwesome
+- uuid
+
+## Autor
+
+- [Tu Nombre](https://github.com/tu_usuario)
+
+---
+
+¡Personaliza este README con tus datos y disfruta programando!
