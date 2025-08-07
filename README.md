@@ -43,16 +43,12 @@ Abre tu navegador en [http://localhost:5173](http://localhost:5173)
 
 ## Tecnologías
 
-- React 19
+- React 18
 - Vite
 - SweetAlert2
 - FontAwesome
 - uuid
 
-## Autor
 
-- [Tu Nombre](https://github.com/tu_usuario)
 
----
 
-¡Personaliza este README con tus datos y disfruta programando!
